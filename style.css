@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.frame {
+    /* イベント1 */
+
+
+position: relative;
+width: 1200px;
+height: 878px;
+
+background: #FFFFFF;
+border-radius: 16px;
+}
+
+.frame-1 {
+    /* Frame 43 */
+
+
+position: absolute;
+width: 1200px;
+height: 64px;
+left: 0px;
+top: 0px;
+
+/* グラデーション */
+
+background: linear-gradient(90deg, #5EE5E5 0%, #81C4FE 100%);
+border-radius: 16px 16px 0px 0px;
+}
+
+.text {
+    /* 行事詳細 */
+
+
+position: absolute;
+width: 80px;
+height: 28px;
+left: 560px;
+top: 18px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.text-1 {
+    /* × */
+
+
+position: absolute;
+width: 20px;
+height: 20px;
+left: 1156px;
+top: 22px;
+
+background: #FFFFFF;
+}
+
+.group {
+    /* Group 57 */
+
+
+position: absolute;
+width: 262px;
+height: 20px;
+left: 24px;
+top: 88px;
+}
+
+.group img {
+    /* Free Clock icon part 2無料の時計のアイコン 2 1 */
+
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 24px;
+top: 90px;
+}
+
+.text-3 {
+    /* 2022年12月30日　　15：00～18：00 */
+
+
+position: absolute;
+width: 238px;
+height: 20px;
+left: 48px;
+top: 88px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.group-1 {
+    /* Group 75 */
+
+
+position: absolute;
+width: 247px;
+height: 22px;
+left: 24px;
+top: 116px;
+}
+
+.flag {
+    /* flag$ */
+
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 24px;
+top: 119px;
+}
+
+.text-3 {
+    /* イベントタイトルが入ります。 */
+
+
+position: absolute;
+width: 223px;
+height: 22px;
+left: 48px;
+top: 116px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.group-2 {
+    /* Group 76 */
+
+
+position: absolute;
+width: 319px;
+height: 20px;
+left: 24px;
+top: 146px;
+}
+
+.location {
+    /* locationPin$ */
+
+
+position: absolute;
+width: 16px;
+height: 16px;
+left: 24px;
+top: 148px;
+}
+
+.text-4 {
+    /* 東京都江戸川区船堀4-1-1 タワーホール船堀6階 */
+
+
+position: absolute;
+width: 295px;
+height: 20px;
+left: 48px;
+top: 146px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* identical to box height, or 20px */
+
+display: flex;
+align-items: center;
+
+color: #1966CC;
+}
+
+.frame-2 {
+    /* Frame 81 */
+
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 24px;
+gap: 10px;
+
+position: absolute;
+width: 1152px;
+height: 88px;
+left: 24px;
+top: 190px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+}
+
+.text-5 {
+    /* イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。 */
+
+
+width: 1104px;
+height: 40px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+
+.group-3 {
+    /* Group 57 */
+
+
+position: absolute;
+width: 144px;
+height: 28px;
+left: 24px;
+top: 308px;
+}
+
+.rectangle {
+    /* Rectangle 3 */
+
+
+position: absolute;
+width: 8px;
+height: 24px;
+left: 24px;
+top: 310px;
+
+/* グラデーション */
+
+background: linear-gradient(90deg, #5EE5E5 0%, #81C4FE 100%);
+border-radius: 4px;
+}
+
+.text-6 {
+    /* 添付ファイル */
+
+
+position: absolute;
+width: 120px;
+height: 28px;
+left: 48px;
+top: 308px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 140%;
+/* identical to box height, or 28px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.frame-3 {
+    /* Frame 81 */
+
+
+position: absolute;
+width: 564px;
+height: 128px;
+left: 24px;
+top: 360px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+}
+
+.frame-4 {
+    /* Frame 78 */
+
+
+position: absolute;
+width: 102px;
+height: 96px;
+left: 16px;
+top: 16px;
+
+background: #9A9A9A;
+border-radius: 4px;
+}
+
+.text-7 {
+    /* 文章タイトルが入ります。 */
+
+
+position: absolute;
+width: 191px;
+height: 22px;
+left: 134px;
+top: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.text-8 {
+    /* イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。 */
+
+
+position: absolute;
+width: 414px;
+height: 60px;
+left: 134px;
+top: 46px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.frame-5 {
+    /* Frame 82 */
+
+
+position: absolute;
+width: 564px;
+height: 128px;
+left: 612px;
+top: 360px;
+
+background: #FFFFFF;
+box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+border-radius: 16px;
+}
+
+.frame-6 {
+    /* Frame 78 */
+
+
+position: absolute;
+width: 102px;
+height: 96px;
+left: 16px;
+top: 16px;
+
+background: #9A9A9A;
+border-radius: 4px;
+}
+
+.text-9 {
+    /* 文章タイトルが入ります。 */
+
+
+position: absolute;
+width: 191px;
+height: 22px;
+left: 134px;
+top: 16px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 140%;
+/* or 22px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
+
+.text-10 {
+    /* イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。イベント説明文が入ります。 */
+
+
+position: absolute;
+width: 414px;
+height: 60px;
+left: 134px;
+top: 46px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 140%;
+/* or 20px */
+
+display: flex;
+align-items: center;
+
+color: #272727;
+}
